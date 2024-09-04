@@ -1,0 +1,60 @@
+D:\Archivos Miguel\Universidad\Octavo semestre\Ingenieria de software\Proyecto_almacen\bin\Debug\Proyecto_almacen.exe.config
+D:\Archivos Miguel\Universidad\Octavo semestre\Ingenieria de software\Proyecto_almacen\bin\Debug\Proyecto_almacen.exe
+D:\Archivos Miguel\Universidad\Octavo semestre\Ingenieria de software\Proyecto_almacen\bin\Debug\Proyecto_almacen.pdb
+D:\Archivos Miguel\Universidad\Octavo semestre\Ingenieria de software\Proyecto_almacen\obj\Debug\Proyecto_almacen.csproj.AssemblyReference.cache
+D:\Archivos Miguel\Universidad\Octavo semestre\Ingenieria de software\Proyecto_almacen\obj\Debug\Proyecto_almacen.GestionUsuario.resources
+D:\Archivos Miguel\Universidad\Octavo semestre\Ingenieria de software\Proyecto_almacen\obj\Debug\Proyecto_almacen.Properties.Resources.resources
+D:\Archivos Miguel\Universidad\Octavo semestre\Ingenieria de software\Proyecto_almacen\obj\Debug\Proyecto_almacen.csproj.GenerateResource.cache
+D:\Archivos Miguel\Universidad\Octavo semestre\Ingenieria de software\Proyecto_almacen\obj\Debug\Proyecto_almacen.csproj.CoreCompileInputs.cache
+D:\Archivos Miguel\Universidad\Octavo semestre\Ingenieria de software\Proyecto_almacen\obj\Debug\Proyecto_almacen.exe
+D:\Archivos Miguel\Universidad\Octavo semestre\Ingenieria de software\Proyecto_almacen\obj\Debug\Proyecto_almacen.pdb
+C:\Users\rodry\Desktop\proyecto almacenes\Nueva carpeta\Proyecto_almacenes\obj\Debug\Proyecto_almacen.csproj.AssemblyReference.cache
+C:\Users\rodry\Desktop\proyecto almacenes\Nueva carpeta\Proyecto_almacenes\obj\Debug\Proyecto_almacen.csproj.SuggestedBindingRedirects.cache
+C:\Users\rodry\Desktop\proyecto almacenes\Nueva carpeta\Proyecto_almacenes\obj\Debug\Proyecto_almacen.GestionUsuario.resources
+C:\Users\rodry\Desktop\proyecto almacenes\Nueva carpeta\Proyecto_almacenes\obj\Debug\Proyecto_almacen.login.resources
+C:\Users\rodry\Desktop\proyecto almacenes\Nueva carpeta\Proyecto_almacenes\obj\Debug\Proyecto_almacen.Properties.Resources.resources
+C:\Users\rodry\Desktop\proyecto almacenes\Nueva carpeta\Proyecto_almacenes\obj\Debug\Proyecto_almacen.csproj.GenerateResource.cache
+C:\Users\rodry\Desktop\proyecto almacenes\Nueva carpeta\Proyecto_almacenes\obj\Debug\Proyecto_almacen.csproj.CoreCompileInputs.cache
+C:\Users\rodry\Desktop\proyecto almacenes\Nueva carpeta\Proyecto_almacenes\obj\Debug\Proyecto_almacen.exe
+C:\Users\rodry\Desktop\proyecto almacenes\Nueva carpeta\Proyecto_almacenes\obj\Debug\Proyecto_almacen.pdb
+C:\Users\rodry\Desktop\proyecto almacenes\Nueva carpeta\Proyecto_almacenes\bin\Debug\Proyecto_almacen.exe.config
+C:\Users\rodry\Desktop\proyecto almacenes\Nueva carpeta\Proyecto_almacenes\bin\Debug\Proyecto_almacen.exe
+C:\Users\rodry\Desktop\proyecto almacenes\Nueva carpeta\Proyecto_almacenes\bin\Debug\Proyecto_almacen.pdb
+D:\Archivos Miguel\Universidad\Octavo semestre\Ingenieria de software\Proyecto_almacen\obj\Debug\Proyecto_almacen.login.resources
+D:\Archivos Miguel\Universidad\Octavo semestre\Ingenieria de software\Proyecto_almacen\obj\Debug\Proyecto_almacen.ReporteLog.resources
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\bin\Debug\Proyecto_almacen.exe.config
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\bin\Debug\Proyecto_almacen.exe
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\bin\Debug\Proyecto_almacen.pdb
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\obj\Debug\Proyecto_almacen.csproj.AssemblyReference.cache
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\obj\Debug\Proyecto_almacen.GestionUsuario.resources
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\obj\Debug\Proyecto_almacen.login.resources
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\obj\Debug\Proyecto_almacen.Properties.Resources.resources
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\obj\Debug\Proyecto_almacen.ReporteLog.resources
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\obj\Debug\Proyecto_almacen.csproj.GenerateResource.cache
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\obj\Debug\Proyecto_almacen.csproj.CoreCompileInputs.cache
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\obj\Debug\Proyecto_almacen.exe
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\obj\Debug\Proyecto_almacen.pdb
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\obj\Debug\Proyecto_almacen.VentasForm.resources
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\obj\Debug\Proyecto_almacen.VenderForm.resources
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\obj\Debug\Proyecto_almacen.AdministradorForms.resources
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\obj\Debug\Proyecto_almacen.ReportesForm.resources
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\bin\Debug\EPPlus.dll
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\bin\Debug\itextsharp.dll
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\bin\Debug\System.Buffers.dll
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\bin\Debug\System.Memory.dll
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\bin\Debug\EPPlus.xml
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\bin\Debug\itextsharp.xml
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\bin\Debug\System.Buffers.xml
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\bin\Debug\System.Memory.xml
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\JHONN\Desktop\SQL\Proyecto_almacenes-main\obj\Debug\Proyecto_almacen.csproj.CopyComplete

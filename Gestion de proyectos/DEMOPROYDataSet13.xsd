@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DEMOPROYDataSet13" targetNamespace="http://tempuri.org/DEMOPROYDataSet13.xsd" xmlns:mstns="http://tempuri.org/DEMOPROYDataSet13.xsd" xmlns="http://tempuri.org/DEMOPROYDataSet13.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="DEMOPROYConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="DEMOPROYConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DEMOPROY1.Properties.Settings.GlobalReference.Default.DEMOPROYConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Postulantes_No_Defensa_Interna1TableAdapter" GeneratorDataComponentClassName="Postulantes_No_Defensa_Interna1TableAdapter" Name="Postulantes_No_Defensa_Interna1" UserDataComponentName="Postulantes_No_Defensa_Interna1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="DEMOPROYConnectionString (Settings)" DbObjectName="DEMOPROY.dbo.Postulantes_No_Defensa_Interna1" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Codigo_Estudiante, CI, PrimerNombre, SegundoNombre, PrimerApellido, SegundoApellido, Titulo_Proyecto FROM dbo.Postulantes_No_Defensa_Interna1</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Codigo_Estudiante" DataSetColumn="Codigo_Estudiante" />
+              <Mapping SourceColumn="CI" DataSetColumn="CI" />
+              <Mapping SourceColumn="PrimerNombre" DataSetColumn="PrimerNombre" />
+              <Mapping SourceColumn="SegundoNombre" DataSetColumn="SegundoNombre" />
+              <Mapping SourceColumn="PrimerApellido" DataSetColumn="PrimerApellido" />
+              <Mapping SourceColumn="SegundoApellido" DataSetColumn="SegundoApellido" />
+              <Mapping SourceColumn="Titulo_Proyecto" DataSetColumn="Titulo_Proyecto" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DEMOPROYDataSet13" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="DEMOPROYDataSet13" msprop:Generator_DataSetName="DEMOPROYDataSet13">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Postulantes_No_Defensa_Interna1" msprop:Generator_RowEvHandlerName="Postulantes_No_Defensa_Interna1RowChangeEventHandler" msprop:Generator_RowDeletedName="Postulantes_No_Defensa_Interna1RowDeleted" msprop:Generator_RowDeletingName="Postulantes_No_Defensa_Interna1RowDeleting" msprop:Generator_RowEvArgName="Postulantes_No_Defensa_Interna1RowChangeEvent" msprop:Generator_TablePropName="Postulantes_No_Defensa_Interna1" msprop:Generator_RowChangedName="Postulantes_No_Defensa_Interna1RowChanged" msprop:Generator_RowChangingName="Postulantes_No_Defensa_Interna1RowChanging" msprop:Generator_TableClassName="Postulantes_No_Defensa_Interna1DataTable" msprop:Generator_RowClassName="Postulantes_No_Defensa_Interna1Row" msprop:Generator_TableVarName="tablePostulantes_No_Defensa_Interna1" msprop:Generator_UserTableName="Postulantes_No_Defensa_Interna1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Codigo_Estudiante" msprop:Generator_ColumnPropNameInRow="Codigo_Estudiante" msprop:Generator_ColumnPropNameInTable="Codigo_EstudianteColumn" msprop:Generator_ColumnVarNameInTable="columnCodigo_Estudiante" msprop:Generator_UserColumnName="Codigo_Estudiante" type="xs:int" />
+              <xs:element name="CI" msprop:Generator_ColumnPropNameInRow="CI" msprop:Generator_ColumnPropNameInTable="CIColumn" msprop:Generator_ColumnVarNameInTable="columnCI" msprop:Generator_UserColumnName="CI" type="xs:int" />
+              <xs:element name="PrimerNombre" msprop:Generator_ColumnPropNameInRow="PrimerNombre" msprop:Generator_ColumnPropNameInTable="PrimerNombreColumn" msprop:Generator_ColumnVarNameInTable="columnPrimerNombre" msprop:Generator_UserColumnName="PrimerNombre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SegundoNombre" msprop:Generator_ColumnPropNameInRow="SegundoNombre" msprop:Generator_ColumnPropNameInTable="SegundoNombreColumn" msprop:Generator_ColumnVarNameInTable="columnSegundoNombre" msprop:Generator_UserColumnName="SegundoNombre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrimerApellido" msprop:Generator_ColumnPropNameInRow="PrimerApellido" msprop:Generator_ColumnPropNameInTable="PrimerApellidoColumn" msprop:Generator_ColumnVarNameInTable="columnPrimerApellido" msprop:Generator_UserColumnName="PrimerApellido">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SegundoApellido" msprop:Generator_ColumnPropNameInRow="SegundoApellido" msprop:Generator_ColumnPropNameInTable="SegundoApellidoColumn" msprop:Generator_ColumnVarNameInTable="columnSegundoApellido" msprop:Generator_UserColumnName="SegundoApellido" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Titulo_Proyecto" msprop:Generator_ColumnPropNameInRow="Titulo_Proyecto" msprop:Generator_ColumnPropNameInTable="Titulo_ProyectoColumn" msprop:Generator_ColumnVarNameInTable="columnTitulo_Proyecto" msprop:Generator_UserColumnName="Titulo_Proyecto">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

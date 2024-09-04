@@ -1,0 +1,70 @@
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\bin\Debug\ACTIVOS_FIJOS.exe.config
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\bin\Debug\ACTIVOS_FIJOS.exe
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\bin\Debug\ACTIVOS_FIJOS.pdb
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.csproj.AssemblyReference.cache
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.Properties.Resources.resources
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.csproj.GenerateResource.cache
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.csproj.CoreCompileInputs.cache
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.exe
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.pdb
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.Form1.resources
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.Views.MainForm.resources
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.Views.AsignacionesForm.resources
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.Views.ActivoFijoForm.resources
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.Views.CategoriaForm.resources
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.Views.PersonalForm.resources
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.Views.DepreciacionForm.resources
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.Views.NombreActivoForm.resources
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.Views.UbicacionForm.resources
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.Views.UnidadForm.resources
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.Views.CargoForm.resources
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.Views.RetornoForm.resources
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.Views.ReportesForm.resources
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\bin\Debug\EntityFramework.dll
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\bin\Debug\EntityFramework.xml
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_.0D893D56.Up2Date
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\bin\Debug\ClosedXML.dll
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\bin\Debug\ExcelNumberFormat.dll
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\bin\Debug\Irony.dll
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\bin\Debug\itextsharp.dll
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\bin\Debug\SixLabors.Fonts.dll
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\bin\Debug\System.Buffers.dll
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\bin\Debug\System.IO.Packaging.dll
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\bin\Debug\System.Memory.dll
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\bin\Debug\XLParser.dll
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\bin\Debug\ClosedXML.xml
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\bin\Debug\ExcelNumberFormat.xml
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\bin\Debug\itextsharp.xml
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\bin\Debug\SixLabors.Fonts.xml
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\bin\Debug\System.Buffers.xml
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\bin\Debug\System.IO.Packaging.xml
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\bin\Debug\System.Memory.xml
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Ramos\source\repos\ACTIVOS_FIJOS\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Archivos Miguel\Universidad\Octavo semestre\Ingenieria de software\Documentos de esclavos\Activos fijos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.csproj.AssemblyReference.cache
+D:\Archivos Miguel\Universidad\Octavo semestre\Ingenieria de software\Documentos de esclavos\Activos fijos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.Form1.resources
+D:\Archivos Miguel\Universidad\Octavo semestre\Ingenieria de software\Documentos de esclavos\Activos fijos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.Properties.Resources.resources
+D:\Archivos Miguel\Universidad\Octavo semestre\Ingenieria de software\Documentos de esclavos\Activos fijos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.Views.ActivoFijoForm.resources
+D:\Archivos Miguel\Universidad\Octavo semestre\Ingenieria de software\Documentos de esclavos\Activos fijos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.Views.AsignacionesForm.resources
+D:\Archivos Miguel\Universidad\Octavo semestre\Ingenieria de software\Documentos de esclavos\Activos fijos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.Views.CargoForm.resources
+D:\Archivos Miguel\Universidad\Octavo semestre\Ingenieria de software\Documentos de esclavos\Activos fijos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.Views.CategoriaForm.resources
+D:\Archivos Miguel\Universidad\Octavo semestre\Ingenieria de software\Documentos de esclavos\Activos fijos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.Views.DepreciacionForm.resources
+D:\Archivos Miguel\Universidad\Octavo semestre\Ingenieria de software\Documentos de esclavos\Activos fijos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.Views.MainForm.resources
+D:\Archivos Miguel\Universidad\Octavo semestre\Ingenieria de software\Documentos de esclavos\Activos fijos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.Views.NombreActivoForm.resources
+D:\Archivos Miguel\Universidad\Octavo semestre\Ingenieria de software\Documentos de esclavos\Activos fijos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.Views.PersonalForm.resources
+D:\Archivos Miguel\Universidad\Octavo semestre\Ingenieria de software\Documentos de esclavos\Activos fijos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.Views.ReportesForm.resources
+D:\Archivos Miguel\Universidad\Octavo semestre\Ingenieria de software\Documentos de esclavos\Activos fijos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.Views.RetornoForm.resources
+D:\Archivos Miguel\Universidad\Octavo semestre\Ingenieria de software\Documentos de esclavos\Activos fijos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.Views.UbicacionForm.resources
+D:\Archivos Miguel\Universidad\Octavo semestre\Ingenieria de software\Documentos de esclavos\Activos fijos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.Views.UnidadForm.resources
+D:\Archivos Miguel\Universidad\Octavo semestre\Ingenieria de software\Documentos de esclavos\Activos fijos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.csproj.GenerateResource.cache
+D:\Archivos Miguel\Universidad\Octavo semestre\Ingenieria de software\Documentos de esclavos\Activos fijos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.csproj.CoreCompileInputs.cache
+D:\Archivos Miguel\Universidad\Octavo semestre\Ingenieria de software\Documentos de esclavos\Activos fijos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.exe
+D:\Archivos Miguel\Universidad\Octavo semestre\Ingenieria de software\Documentos de esclavos\Activos fijos\ACTIVOS_FIJOS\obj\Debug\ACTIVOS_FIJOS.pdb

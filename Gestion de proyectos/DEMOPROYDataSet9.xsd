@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DEMOPROYDataSet9" targetNamespace="http://tempuri.org/DEMOPROYDataSet9.xsd" xmlns:mstns="http://tempuri.org/DEMOPROYDataSet9.xsd" xmlns="http://tempuri.org/DEMOPROYDataSet9.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="DEMOPROYConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="DEMOPROYConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DEMOPROY1.Properties.Settings.GlobalReference.Default.DEMOPROYConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Vista_Postulantes_Defensa_Externa_PendienteTableAdapter" GeneratorDataComponentClassName="Vista_Postulantes_Defensa_Externa_PendienteTableAdapter" Name="Vista_Postulantes_Defensa_Externa_Pendiente" UserDataComponentName="Vista_Postulantes_Defensa_Externa_PendienteTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="DEMOPROYConnectionString (Settings)" DbObjectName="DEMOPROY.dbo.Vista_Postulantes_Defensa_Externa_Pendiente" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT PostulanteId, Codigo_Estudiante, PrimerNombre, SegundoNombre, PrimerApellido, SegundoApellido, Email, Celular, Id_Carrera, ProyectoTitulo, FechaDefensaExterna, AProbado FROM dbo.Vista_Postulantes_Defensa_Externa_Pendiente</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="PostulanteId" DataSetColumn="PostulanteId" />
+              <Mapping SourceColumn="Codigo_Estudiante" DataSetColumn="Codigo_Estudiante" />
+              <Mapping SourceColumn="PrimerNombre" DataSetColumn="PrimerNombre" />
+              <Mapping SourceColumn="SegundoNombre" DataSetColumn="SegundoNombre" />
+              <Mapping SourceColumn="PrimerApellido" DataSetColumn="PrimerApellido" />
+              <Mapping SourceColumn="SegundoApellido" DataSetColumn="SegundoApellido" />
+              <Mapping SourceColumn="Email" DataSetColumn="Email" />
+              <Mapping SourceColumn="Celular" DataSetColumn="Celular" />
+              <Mapping SourceColumn="Id_Carrera" DataSetColumn="Id_Carrera" />
+              <Mapping SourceColumn="ProyectoTitulo" DataSetColumn="ProyectoTitulo" />
+              <Mapping SourceColumn="FechaDefensaExterna" DataSetColumn="FechaDefensaExterna" />
+              <Mapping SourceColumn="AProbado" DataSetColumn="AProbado" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DEMOPROYDataSet9" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="DEMOPROYDataSet9" msprop:Generator_DataSetName="DEMOPROYDataSet9">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Vista_Postulantes_Defensa_Externa_Pendiente" msprop:Generator_RowEvHandlerName="Vista_Postulantes_Defensa_Externa_PendienteRowChangeEventHandler" msprop:Generator_RowDeletedName="Vista_Postulantes_Defensa_Externa_PendienteRowDeleted" msprop:Generator_RowDeletingName="Vista_Postulantes_Defensa_Externa_PendienteRowDeleting" msprop:Generator_RowEvArgName="Vista_Postulantes_Defensa_Externa_PendienteRowChangeEvent" msprop:Generator_TablePropName="Vista_Postulantes_Defensa_Externa_Pendiente" msprop:Generator_RowChangedName="Vista_Postulantes_Defensa_Externa_PendienteRowChanged" msprop:Generator_RowChangingName="Vista_Postulantes_Defensa_Externa_PendienteRowChanging" msprop:Generator_TableClassName="Vista_Postulantes_Defensa_Externa_PendienteDataTable" msprop:Generator_RowClassName="Vista_Postulantes_Defensa_Externa_PendienteRow" msprop:Generator_TableVarName="tableVista_Postulantes_Defensa_Externa_Pendiente" msprop:Generator_UserTableName="Vista_Postulantes_Defensa_Externa_Pendiente">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PostulanteId" msprop:Generator_ColumnPropNameInRow="PostulanteId" msprop:Generator_ColumnPropNameInTable="PostulanteIdColumn" msprop:Generator_ColumnVarNameInTable="columnPostulanteId" msprop:Generator_UserColumnName="PostulanteId" type="xs:int" />
+              <xs:element name="Codigo_Estudiante" msprop:Generator_ColumnPropNameInRow="Codigo_Estudiante" msprop:Generator_ColumnPropNameInTable="Codigo_EstudianteColumn" msprop:Generator_ColumnVarNameInTable="columnCodigo_Estudiante" msprop:Generator_UserColumnName="Codigo_Estudiante" type="xs:int" />
+              <xs:element name="PrimerNombre" msprop:Generator_ColumnPropNameInRow="PrimerNombre" msprop:Generator_ColumnPropNameInTable="PrimerNombreColumn" msprop:Generator_ColumnVarNameInTable="columnPrimerNombre" msprop:Generator_UserColumnName="PrimerNombre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SegundoNombre" msprop:Generator_ColumnPropNameInRow="SegundoNombre" msprop:Generator_ColumnPropNameInTable="SegundoNombreColumn" msprop:Generator_ColumnVarNameInTable="columnSegundoNombre" msprop:Generator_UserColumnName="SegundoNombre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrimerApellido" msprop:Generator_ColumnPropNameInRow="PrimerApellido" msprop:Generator_ColumnPropNameInTable="PrimerApellidoColumn" msprop:Generator_ColumnVarNameInTable="columnPrimerApellido" msprop:Generator_UserColumnName="PrimerApellido">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SegundoApellido" msprop:Generator_ColumnPropNameInRow="SegundoApellido" msprop:Generator_ColumnPropNameInTable="SegundoApellidoColumn" msprop:Generator_ColumnVarNameInTable="columnSegundoApellido" msprop:Generator_UserColumnName="SegundoApellido" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Email" msprop:Generator_ColumnPropNameInRow="Email" msprop:Generator_ColumnPropNameInTable="EmailColumn" msprop:Generator_ColumnVarNameInTable="columnEmail" msprop:Generator_UserColumnName="Email" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Celular" msprop:Generator_ColumnPropNameInRow="Celular" msprop:Generator_ColumnPropNameInTable="CelularColumn" msprop:Generator_ColumnVarNameInTable="columnCelular" msprop:Generator_UserColumnName="Celular" type="xs:int" />
+              <xs:element name="Id_Carrera" msprop:Generator_ColumnPropNameInRow="Id_Carrera" msprop:Generator_ColumnPropNameInTable="Id_CarreraColumn" msprop:Generator_ColumnVarNameInTable="columnId_Carrera" msprop:Generator_UserColumnName="Id_Carrera" type="xs:int" />
+              <xs:element name="ProyectoTitulo" msprop:Generator_ColumnPropNameInRow="ProyectoTitulo" msprop:Generator_ColumnPropNameInTable="ProyectoTituloColumn" msprop:Generator_ColumnVarNameInTable="columnProyectoTitulo" msprop:Generator_UserColumnName="ProyectoTitulo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FechaDefensaExterna" msprop:Generator_ColumnPropNameInRow="FechaDefensaExterna" msprop:Generator_ColumnPropNameInTable="FechaDefensaExternaColumn" msprop:Generator_ColumnVarNameInTable="columnFechaDefensaExterna" msprop:Generator_UserColumnName="FechaDefensaExterna" type="xs:dateTime" />
+              <xs:element name="AProbado" msprop:Generator_ColumnPropNameInRow="AProbado" msprop:Generator_ColumnPropNameInTable="AProbadoColumn" msprop:Generator_ColumnVarNameInTable="columnAProbado" msprop:Generator_UserColumnName="AProbado" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Vista_Postulantes_Defensa_Externa_Pendiente" />
+      <xs:field xpath="mstns:PostulanteId" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

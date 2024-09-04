@@ -1,0 +1,239 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Archivos Miguel\\Universidad\\Octavo semestre\\Ingenieria de software\\Documentos de esclavos\\Activos fijos\\ACTIVOS_FIJOS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|d:\\archivos miguel\\universidad\\octavo semestre\\ingenieria de software\\documentos de esclavos\\activos fijos\\activos_fijos\\views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|solutionrelative:views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|d:\\archivos miguel\\universidad\\octavo semestre\\ingenieria de software\\documentos de esclavos\\activos fijos\\activos_fijos\\views\\nombreactivoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|solutionrelative:views\\nombreactivoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|d:\\archivos miguel\\universidad\\octavo semestre\\ingenieria de software\\documentos de esclavos\\activos fijos\\activos_fijos\\views\\personalform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|solutionrelative:views\\personalform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|d:\\archivos miguel\\universidad\\octavo semestre\\ingenieria de software\\documentos de esclavos\\activos fijos\\activos_fijos\\views\\reportesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|solutionrelative:views\\reportesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|d:\\archivos miguel\\universidad\\octavo semestre\\ingenieria de software\\documentos de esclavos\\activos fijos\\activos_fijos\\views\\retornoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|solutionrelative:views\\retornoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|d:\\archivos miguel\\universidad\\octavo semestre\\ingenieria de software\\documentos de esclavos\\activos fijos\\activos_fijos\\views\\ubicacionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|solutionrelative:views\\ubicacionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|d:\\archivos miguel\\universidad\\octavo semestre\\ingenieria de software\\documentos de esclavos\\activos fijos\\activos_fijos\\views\\unidadform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|solutionrelative:views\\unidadform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|d:\\archivos miguel\\universidad\\octavo semestre\\ingenieria de software\\documentos de esclavos\\activos fijos\\activos_fijos\\views\\activofijoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|solutionrelative:views\\activofijoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|d:\\archivos miguel\\universidad\\octavo semestre\\ingenieria de software\\documentos de esclavos\\activos fijos\\activos_fijos\\views\\asignacionesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|solutionrelative:views\\asignacionesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|d:\\archivos miguel\\universidad\\octavo semestre\\ingenieria de software\\documentos de esclavos\\activos fijos\\activos_fijos\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|D:\\Archivos Miguel\\Universidad\\Octavo semestre\\Ingenieria de software\\Documentos de esclavos\\Activos fijos\\ACTIVOS_FIJOS\\models\\dbconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|solutionrelative:models\\dbconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|D:\\Archivos Miguel\\Universidad\\Octavo semestre\\Ingenieria de software\\Documentos de esclavos\\Activos fijos\\ACTIVOS_FIJOS\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|D:\\Archivos Miguel\\Universidad\\Octavo semestre\\Ingenieria de software\\Documentos de esclavos\\Activos fijos\\ACTIVOS_FIJOS\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|solutionrelative:login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "D:\\Archivos Miguel\\Universidad\\Octavo semestre\\Ingenieria de software\\Documentos de esclavos\\Activos fijos\\ACTIVOS_FIJOS\\Views\\MainForm.cs",
+              "RelativeDocumentMoniker": "Views\\MainForm.cs",
+              "ToolTip": "D:\\Archivos Miguel\\Universidad\\Octavo semestre\\Ingenieria de software\\Documentos de esclavos\\Activos fijos\\ACTIVOS_FIJOS\\Views\\MainForm.cs [Design]",
+              "RelativeToolTip": "Views\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T04:50:28.839Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NombreActivoForm.cs [Design]",
+              "DocumentMoniker": "D:\\Archivos Miguel\\Universidad\\Octavo semestre\\Ingenieria de software\\Documentos de esclavos\\Activos fijos\\ACTIVOS_FIJOS\\Views\\NombreActivoForm.cs",
+              "RelativeDocumentMoniker": "Views\\NombreActivoForm.cs",
+              "ToolTip": "D:\\Archivos Miguel\\Universidad\\Octavo semestre\\Ingenieria de software\\Documentos de esclavos\\Activos fijos\\ACTIVOS_FIJOS\\Views\\NombreActivoForm.cs [Design]",
+              "RelativeToolTip": "Views\\NombreActivoForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T04:50:27.862Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PersonalForm.cs [Design]",
+              "DocumentMoniker": "D:\\Archivos Miguel\\Universidad\\Octavo semestre\\Ingenieria de software\\Documentos de esclavos\\Activos fijos\\ACTIVOS_FIJOS\\Views\\PersonalForm.cs",
+              "RelativeDocumentMoniker": "Views\\PersonalForm.cs",
+              "ToolTip": "D:\\Archivos Miguel\\Universidad\\Octavo semestre\\Ingenieria de software\\Documentos de esclavos\\Activos fijos\\ACTIVOS_FIJOS\\Views\\PersonalForm.cs [Design]",
+              "RelativeToolTip": "Views\\PersonalForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T04:50:25.728Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReportesForm.cs [Design]",
+              "DocumentMoniker": "D:\\Archivos Miguel\\Universidad\\Octavo semestre\\Ingenieria de software\\Documentos de esclavos\\Activos fijos\\ACTIVOS_FIJOS\\Views\\ReportesForm.cs",
+              "RelativeDocumentMoniker": "Views\\ReportesForm.cs",
+              "ToolTip": "D:\\Archivos Miguel\\Universidad\\Octavo semestre\\Ingenieria de software\\Documentos de esclavos\\Activos fijos\\ACTIVOS_FIJOS\\Views\\ReportesForm.cs [Design]",
+              "RelativeToolTip": "Views\\ReportesForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T04:50:24.351Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RetornoForm.cs [Design]",
+              "DocumentMoniker": "D:\\Archivos Miguel\\Universidad\\Octavo semestre\\Ingenieria de software\\Documentos de esclavos\\Activos fijos\\ACTIVOS_FIJOS\\Views\\RetornoForm.cs",
+              "RelativeDocumentMoniker": "Views\\RetornoForm.cs",
+              "ToolTip": "D:\\Archivos Miguel\\Universidad\\Octavo semestre\\Ingenieria de software\\Documentos de esclavos\\Activos fijos\\ACTIVOS_FIJOS\\Views\\RetornoForm.cs [Design]",
+              "RelativeToolTip": "Views\\RetornoForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T04:50:22.879Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UbicacionForm.cs [Design]",
+              "DocumentMoniker": "D:\\Archivos Miguel\\Universidad\\Octavo semestre\\Ingenieria de software\\Documentos de esclavos\\Activos fijos\\ACTIVOS_FIJOS\\Views\\UbicacionForm.cs",
+              "RelativeDocumentMoniker": "Views\\UbicacionForm.cs",
+              "ToolTip": "D:\\Archivos Miguel\\Universidad\\Octavo semestre\\Ingenieria de software\\Documentos de esclavos\\Activos fijos\\ACTIVOS_FIJOS\\Views\\UbicacionForm.cs [Design]",
+              "RelativeToolTip": "Views\\UbicacionForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T04:50:21.544Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UnidadForm.cs [Design]",
+              "DocumentMoniker": "D:\\Archivos Miguel\\Universidad\\Octavo semestre\\Ingenieria de software\\Documentos de esclavos\\Activos fijos\\ACTIVOS_FIJOS\\Views\\UnidadForm.cs",
+              "RelativeDocumentMoniker": "Views\\UnidadForm.cs",
+              "ToolTip": "D:\\Archivos Miguel\\Universidad\\Octavo semestre\\Ingenieria de software\\Documentos de esclavos\\Activos fijos\\ACTIVOS_FIJOS\\Views\\UnidadForm.cs [Design]",
+              "RelativeToolTip": "Views\\UnidadForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T04:50:20.516Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AsignacionesForm.cs [Design]",
+              "DocumentMoniker": "D:\\Archivos Miguel\\Universidad\\Octavo semestre\\Ingenieria de software\\Documentos de esclavos\\Activos fijos\\ACTIVOS_FIJOS\\Views\\AsignacionesForm.cs",
+              "RelativeDocumentMoniker": "Views\\AsignacionesForm.cs",
+              "ToolTip": "D:\\Archivos Miguel\\Universidad\\Octavo semestre\\Ingenieria de software\\Documentos de esclavos\\Activos fijos\\ACTIVOS_FIJOS\\Views\\AsignacionesForm.cs [Design]",
+              "RelativeToolTip": "Views\\AsignacionesForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T04:50:13.679Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ActivoFijoForm.cs [Design]",
+              "DocumentMoniker": "D:\\Archivos Miguel\\Universidad\\Octavo semestre\\Ingenieria de software\\Documentos de esclavos\\Activos fijos\\ACTIVOS_FIJOS\\Views\\ActivoFijoForm.cs",
+              "RelativeDocumentMoniker": "Views\\ActivoFijoForm.cs",
+              "ToolTip": "D:\\Archivos Miguel\\Universidad\\Octavo semestre\\Ingenieria de software\\Documentos de esclavos\\Activos fijos\\ACTIVOS_FIJOS\\Views\\ActivoFijoForm.cs [Design]",
+              "RelativeToolTip": "Views\\ActivoFijoForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T04:50:13.147Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "login.cs",
+              "DocumentMoniker": "D:\\Archivos Miguel\\Universidad\\Octavo semestre\\Ingenieria de software\\Documentos de esclavos\\Activos fijos\\ACTIVOS_FIJOS\\login.cs",
+              "RelativeDocumentMoniker": "login.cs",
+              "ToolTip": "D:\\Archivos Miguel\\Universidad\\Octavo semestre\\Ingenieria de software\\Documentos de esclavos\\Activos fijos\\ACTIVOS_FIJOS\\login.cs",
+              "RelativeToolTip": "login.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T00:40:24.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "login.Designer.cs",
+              "DocumentMoniker": "D:\\Archivos Miguel\\Universidad\\Octavo semestre\\Ingenieria de software\\Documentos de esclavos\\Activos fijos\\ACTIVOS_FIJOS\\login.Designer.cs",
+              "RelativeDocumentMoniker": "login.Designer.cs",
+              "ToolTip": "D:\\Archivos Miguel\\Universidad\\Octavo semestre\\Ingenieria de software\\Documentos de esclavos\\Activos fijos\\ACTIVOS_FIJOS\\login.Designer.cs",
+              "RelativeToolTip": "login.Designer.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAswBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T00:41:10.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Archivos Miguel\\Universidad\\Octavo semestre\\Ingenieria de software\\Documentos de esclavos\\Activos fijos\\ACTIVOS_FIJOS\\login.cs",
+              "RelativeDocumentMoniker": "login.cs",
+              "ToolTip": "C:\\Users\\Ramos\\source\\repos\\ACTIVOS_FIJOS\\login.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T00:40:17.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DbConexion.cs",
+              "DocumentMoniker": "D:\\Archivos Miguel\\Universidad\\Octavo semestre\\Ingenieria de software\\Documentos de esclavos\\Activos fijos\\ACTIVOS_FIJOS\\Models\\DbConexion.cs",
+              "RelativeDocumentMoniker": "Models\\DbConexion.cs",
+              "ToolTip": "D:\\Archivos Miguel\\Universidad\\Octavo semestre\\Ingenieria de software\\Documentos de esclavos\\Activos fijos\\ACTIVOS_FIJOS\\Models\\DbConexion.cs",
+              "RelativeToolTip": "Models\\DbConexion.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAAAswCIBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T00:36:57.876Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

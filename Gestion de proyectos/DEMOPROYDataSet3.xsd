@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DEMOPROYDataSet3" targetNamespace="http://tempuri.org/DEMOPROYDataSet3.xsd" xmlns:mstns="http://tempuri.org/DEMOPROYDataSet3.xsd" xmlns="http://tempuri.org/DEMOPROYDataSet3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="DEMOPROYConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="DEMOPROYConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DEMOPROY1.Properties.Settings.GlobalReference.Default.DEMOPROYConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VISTA_PROYECTOS_FALTANTES_ACTASTableAdapter" GeneratorDataComponentClassName="VISTA_PROYECTOS_FALTANTES_ACTASTableAdapter" Name="VISTA_PROYECTOS_FALTANTES_ACTAS" UserDataComponentName="VISTA_PROYECTOS_FALTANTES_ACTASTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="DEMOPROYConnectionString (Settings)" DbObjectName="DEMOPROY.dbo.VISTA_PROYECTOS_FALTANTES_ACTAS" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Id_Proyecto, Titulo, TipoTrabajo, Gestion, ACTAMDG1, ACTAMDG2, PrimerNombre, PrimerApellido, Codigo_Estudiante FROM dbo.VISTA_PROYECTOS_FALTANTES_ACTAS</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Id_Proyecto" DataSetColumn="Id_Proyecto" />
+              <Mapping SourceColumn="Titulo" DataSetColumn="Titulo" />
+              <Mapping SourceColumn="TipoTrabajo" DataSetColumn="TipoTrabajo" />
+              <Mapping SourceColumn="Gestion" DataSetColumn="Gestion" />
+              <Mapping SourceColumn="ACTAMDG1" DataSetColumn="ACTAMDG1" />
+              <Mapping SourceColumn="ACTAMDG2" DataSetColumn="ACTAMDG2" />
+              <Mapping SourceColumn="PrimerNombre" DataSetColumn="PrimerNombre" />
+              <Mapping SourceColumn="PrimerApellido" DataSetColumn="PrimerApellido" />
+              <Mapping SourceColumn="Codigo_Estudiante" DataSetColumn="Codigo_Estudiante" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DEMOPROYDataSet3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="DEMOPROYDataSet3" msprop:Generator_DataSetName="DEMOPROYDataSet3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="VISTA_PROYECTOS_FALTANTES_ACTAS" msprop:Generator_RowEvHandlerName="VISTA_PROYECTOS_FALTANTES_ACTASRowChangeEventHandler" msprop:Generator_RowDeletedName="VISTA_PROYECTOS_FALTANTES_ACTASRowDeleted" msprop:Generator_RowDeletingName="VISTA_PROYECTOS_FALTANTES_ACTASRowDeleting" msprop:Generator_RowEvArgName="VISTA_PROYECTOS_FALTANTES_ACTASRowChangeEvent" msprop:Generator_TablePropName="VISTA_PROYECTOS_FALTANTES_ACTAS" msprop:Generator_RowChangedName="VISTA_PROYECTOS_FALTANTES_ACTASRowChanged" msprop:Generator_RowChangingName="VISTA_PROYECTOS_FALTANTES_ACTASRowChanging" msprop:Generator_TableClassName="VISTA_PROYECTOS_FALTANTES_ACTASDataTable" msprop:Generator_RowClassName="VISTA_PROYECTOS_FALTANTES_ACTASRow" msprop:Generator_TableVarName="tableVISTA_PROYECTOS_FALTANTES_ACTAS" msprop:Generator_UserTableName="VISTA_PROYECTOS_FALTANTES_ACTAS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id_Proyecto" msprop:Generator_ColumnPropNameInRow="Id_Proyecto" msprop:Generator_ColumnPropNameInTable="Id_ProyectoColumn" msprop:Generator_ColumnVarNameInTable="columnId_Proyecto" msprop:Generator_UserColumnName="Id_Proyecto" type="xs:int" />
+              <xs:element name="Titulo" msprop:Generator_ColumnPropNameInRow="Titulo" msprop:Generator_ColumnPropNameInTable="TituloColumn" msprop:Generator_ColumnVarNameInTable="columnTitulo" msprop:Generator_UserColumnName="Titulo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TipoTrabajo" msprop:Generator_ColumnPropNameInRow="TipoTrabajo" msprop:Generator_ColumnPropNameInTable="TipoTrabajoColumn" msprop:Generator_ColumnVarNameInTable="columnTipoTrabajo" msprop:Generator_UserColumnName="TipoTrabajo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Gestion" msprop:Generator_ColumnPropNameInRow="Gestion" msprop:Generator_ColumnPropNameInTable="GestionColumn" msprop:Generator_ColumnVarNameInTable="columnGestion" msprop:Generator_UserColumnName="Gestion">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ACTAMDG1" msprop:Generator_ColumnPropNameInRow="ACTAMDG1" msprop:Generator_ColumnPropNameInTable="ACTAMDG1Column" msprop:Generator_ColumnVarNameInTable="columnACTAMDG1" msprop:Generator_UserColumnName="ACTAMDG1" type="xs:boolean" />
+              <xs:element name="ACTAMDG2" msprop:Generator_ColumnPropNameInRow="ACTAMDG2" msprop:Generator_ColumnPropNameInTable="ACTAMDG2Column" msprop:Generator_ColumnVarNameInTable="columnACTAMDG2" msprop:Generator_UserColumnName="ACTAMDG2" type="xs:boolean" />
+              <xs:element name="PrimerNombre" msprop:Generator_ColumnPropNameInRow="PrimerNombre" msprop:Generator_ColumnPropNameInTable="PrimerNombreColumn" msprop:Generator_ColumnVarNameInTable="columnPrimerNombre" msprop:Generator_UserColumnName="PrimerNombre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrimerApellido" msprop:Generator_ColumnPropNameInRow="PrimerApellido" msprop:Generator_ColumnPropNameInTable="PrimerApellidoColumn" msprop:Generator_ColumnVarNameInTable="columnPrimerApellido" msprop:Generator_UserColumnName="PrimerApellido">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Codigo_Estudiante" msprop:Generator_ColumnPropNameInRow="Codigo_Estudiante" msprop:Generator_ColumnPropNameInTable="Codigo_EstudianteColumn" msprop:Generator_ColumnVarNameInTable="columnCodigo_Estudiante" msprop:Generator_UserColumnName="Codigo_Estudiante" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:VISTA_PROYECTOS_FALTANTES_ACTAS" />
+      <xs:field xpath="mstns:Id_Proyecto" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

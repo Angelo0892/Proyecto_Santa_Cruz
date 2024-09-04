@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DEMOPROYDataSet16" targetNamespace="http://tempuri.org/DEMOPROYDataSet16.xsd" xmlns:mstns="http://tempuri.org/DEMOPROYDataSet16.xsd" xmlns="http://tempuri.org/DEMOPROYDataSet16.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="DEMOPROYConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="DEMOPROYConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DEMOPROY1.Properties.Settings.GlobalReference.Default.DEMOPROYConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Reporte_Postulantes_Tutores_GestionTableAdapter" GeneratorDataComponentClassName="Reporte_Postulantes_Tutores_GestionTableAdapter" Name="Reporte_Postulantes_Tutores_Gestion" UserDataComponentName="Reporte_Postulantes_Tutores_GestionTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="DEMOPROYConnectionString (Settings)" DbObjectName="DEMOPROY.dbo.Reporte_Postulantes_Tutores_Gestion" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT PostulanteId, NombrePostulante, NombreTutor, Titulo_Proyecto, Fecha_Registro_Proyecto, Gestion FROM dbo.Reporte_Postulantes_Tutores_Gestion</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="PostulanteId" DataSetColumn="PostulanteId" />
+              <Mapping SourceColumn="NombrePostulante" DataSetColumn="NombrePostulante" />
+              <Mapping SourceColumn="NombreTutor" DataSetColumn="NombreTutor" />
+              <Mapping SourceColumn="Titulo_Proyecto" DataSetColumn="Titulo_Proyecto" />
+              <Mapping SourceColumn="Fecha_Registro_Proyecto" DataSetColumn="Fecha_Registro_Proyecto" />
+              <Mapping SourceColumn="Gestion" DataSetColumn="Gestion" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DEMOPROYDataSet16" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="DEMOPROYDataSet16" msprop:Generator_DataSetName="DEMOPROYDataSet16">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Reporte_Postulantes_Tutores_Gestion" msprop:Generator_RowEvHandlerName="Reporte_Postulantes_Tutores_GestionRowChangeEventHandler" msprop:Generator_RowDeletedName="Reporte_Postulantes_Tutores_GestionRowDeleted" msprop:Generator_RowDeletingName="Reporte_Postulantes_Tutores_GestionRowDeleting" msprop:Generator_RowEvArgName="Reporte_Postulantes_Tutores_GestionRowChangeEvent" msprop:Generator_TablePropName="Reporte_Postulantes_Tutores_Gestion" msprop:Generator_RowChangedName="Reporte_Postulantes_Tutores_GestionRowChanged" msprop:Generator_RowChangingName="Reporte_Postulantes_Tutores_GestionRowChanging" msprop:Generator_TableClassName="Reporte_Postulantes_Tutores_GestionDataTable" msprop:Generator_RowClassName="Reporte_Postulantes_Tutores_GestionRow" msprop:Generator_TableVarName="tableReporte_Postulantes_Tutores_Gestion" msprop:Generator_UserTableName="Reporte_Postulantes_Tutores_Gestion">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PostulanteId" msprop:Generator_ColumnPropNameInRow="PostulanteId" msprop:Generator_ColumnPropNameInTable="PostulanteIdColumn" msprop:Generator_ColumnVarNameInTable="columnPostulanteId" msprop:Generator_UserColumnName="PostulanteId" type="xs:int" />
+              <xs:element name="NombrePostulante" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInRow="NombrePostulante" msprop:Generator_ColumnPropNameInTable="NombrePostulanteColumn" msprop:Generator_ColumnVarNameInTable="columnNombrePostulante" msprop:Generator_UserColumnName="NombrePostulante" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="203" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NombreTutor" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInRow="NombreTutor" msprop:Generator_ColumnPropNameInTable="NombreTutorColumn" msprop:Generator_ColumnVarNameInTable="columnNombreTutor" msprop:Generator_UserColumnName="NombreTutor" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="203" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Titulo_Proyecto" msprop:Generator_ColumnPropNameInRow="Titulo_Proyecto" msprop:Generator_ColumnPropNameInTable="Titulo_ProyectoColumn" msprop:Generator_ColumnVarNameInTable="columnTitulo_Proyecto" msprop:Generator_UserColumnName="Titulo_Proyecto">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Fecha_Registro_Proyecto" msprop:Generator_ColumnPropNameInRow="Fecha_Registro_Proyecto" msprop:Generator_ColumnPropNameInTable="Fecha_Registro_ProyectoColumn" msprop:Generator_ColumnVarNameInTable="columnFecha_Registro_Proyecto" msprop:Generator_UserColumnName="Fecha_Registro_Proyecto" type="xs:dateTime" />
+              <xs:element name="Gestion" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInRow="Gestion" msprop:Generator_ColumnPropNameInTable="GestionColumn" msprop:Generator_ColumnVarNameInTable="columnGestion" msprop:Generator_UserColumnName="Gestion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="31" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Reporte_Postulantes_Tutores_Gestion" />
+      <xs:field xpath="mstns:PostulanteId" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

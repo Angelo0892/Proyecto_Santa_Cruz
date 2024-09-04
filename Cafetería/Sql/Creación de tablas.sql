@@ -1,0 +1,34 @@
+CREATE DATABASE Almacen
+GO
+
+USE Almacen
+GO
+
+CREATE TABLE Usuario(
+	idUsuario INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
+	nombreU NVARCHAR(50) NOT NULL,
+	codigo NVARCHAR(50) NOT NULL,
+	celular INT NOT NULL,
+	rol NVARCHAR(20) NOT NULL,
+	estado NVARCHAR(20) NOT NULL
+
+	CONSTRAINT UQ_CodigoNombre UNIQUE (nombreU)
+);
+GO
+
+CREATE TABLE Logs(
+	idUsuario INT NOT NULL,
+	fecha DATE NOT NULL,
+	hora TIME NOT NULL,
+	tabla NVARCHAR(30) NOT NULL,
+	operacion NVARCHAR(20) NOT NULL,
+	logO NVARCHAR(MAX) NOT NULL,
+
+	FOREIGN KEY (idUsuario) REFERENCES Usuario(idUsuario)
+);
+GO
+
+CREATE TABLE IdTemporal(
+	id INT NOT NULL IDENTITY(1, 1) PRIMARY KEY,
+	idTemporal INT NOT NULL
+);

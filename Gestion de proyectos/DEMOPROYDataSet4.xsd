@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DEMOPROYDataSet4" targetNamespace="http://tempuri.org/DEMOPROYDataSet4.xsd" xmlns:mstns="http://tempuri.org/DEMOPROYDataSet4.xsd" xmlns="http://tempuri.org/DEMOPROYDataSet4.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="DEMOPROYConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="DEMOPROYConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DEMOPROY1.Properties.Settings.GlobalReference.Default.DEMOPROYConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VISTA_ESTUDIANTES_FALTAN_DEFENSA_INTERNATableAdapter" GeneratorDataComponentClassName="VISTA_ESTUDIANTES_FALTAN_DEFENSA_INTERNATableAdapter" Name="VISTA_ESTUDIANTES_FALTAN_DEFENSA_INTERNA" UserDataComponentName="VISTA_ESTUDIANTES_FALTAN_DEFENSA_INTERNATableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="DEMOPROYConnectionString (Settings)" DbObjectName="DEMOPROY.dbo.VISTA_ESTUDIANTES_FALTAN_DEFENSA_INTERNA" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Id_Proyecto, Titulo, TipoTrabajo, Gestion, PrimerNombre, PrimerApellido, Codigo_Estudiante FROM dbo.VISTA_ESTUDIANTES_FALTAN_DEFENSA_INTERNA</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Id_Proyecto" DataSetColumn="Id_Proyecto" />
+              <Mapping SourceColumn="Titulo" DataSetColumn="Titulo" />
+              <Mapping SourceColumn="TipoTrabajo" DataSetColumn="TipoTrabajo" />
+              <Mapping SourceColumn="Gestion" DataSetColumn="Gestion" />
+              <Mapping SourceColumn="PrimerNombre" DataSetColumn="PrimerNombre" />
+              <Mapping SourceColumn="PrimerApellido" DataSetColumn="PrimerApellido" />
+              <Mapping SourceColumn="Codigo_Estudiante" DataSetColumn="Codigo_Estudiante" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DEMOPROYDataSet4" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="DEMOPROYDataSet4" msprop:Generator_DataSetName="DEMOPROYDataSet4">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="VISTA_ESTUDIANTES_FALTAN_DEFENSA_INTERNA" msprop:Generator_RowEvHandlerName="VISTA_ESTUDIANTES_FALTAN_DEFENSA_INTERNARowChangeEventHandler" msprop:Generator_RowDeletedName="VISTA_ESTUDIANTES_FALTAN_DEFENSA_INTERNARowDeleted" msprop:Generator_RowDeletingName="VISTA_ESTUDIANTES_FALTAN_DEFENSA_INTERNARowDeleting" msprop:Generator_RowEvArgName="VISTA_ESTUDIANTES_FALTAN_DEFENSA_INTERNARowChangeEvent" msprop:Generator_TablePropName="VISTA_ESTUDIANTES_FALTAN_DEFENSA_INTERNA" msprop:Generator_RowChangedName="VISTA_ESTUDIANTES_FALTAN_DEFENSA_INTERNARowChanged" msprop:Generator_RowChangingName="VISTA_ESTUDIANTES_FALTAN_DEFENSA_INTERNARowChanging" msprop:Generator_TableClassName="VISTA_ESTUDIANTES_FALTAN_DEFENSA_INTERNADataTable" msprop:Generator_RowClassName="VISTA_ESTUDIANTES_FALTAN_DEFENSA_INTERNARow" msprop:Generator_TableVarName="tableVISTA_ESTUDIANTES_FALTAN_DEFENSA_INTERNA" msprop:Generator_UserTableName="VISTA_ESTUDIANTES_FALTAN_DEFENSA_INTERNA">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id_Proyecto" msprop:Generator_ColumnPropNameInRow="Id_Proyecto" msprop:Generator_ColumnPropNameInTable="Id_ProyectoColumn" msprop:Generator_ColumnVarNameInTable="columnId_Proyecto" msprop:Generator_UserColumnName="Id_Proyecto" type="xs:int" />
+              <xs:element name="Titulo" msprop:Generator_ColumnPropNameInRow="Titulo" msprop:Generator_ColumnPropNameInTable="TituloColumn" msprop:Generator_ColumnVarNameInTable="columnTitulo" msprop:Generator_UserColumnName="Titulo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TipoTrabajo" msprop:Generator_ColumnPropNameInRow="TipoTrabajo" msprop:Generator_ColumnPropNameInTable="TipoTrabajoColumn" msprop:Generator_ColumnVarNameInTable="columnTipoTrabajo" msprop:Generator_UserColumnName="TipoTrabajo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Gestion" msprop:Generator_ColumnPropNameInRow="Gestion" msprop:Generator_ColumnPropNameInTable="GestionColumn" msprop:Generator_ColumnVarNameInTable="columnGestion" msprop:Generator_UserColumnName="Gestion">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrimerNombre" msprop:Generator_ColumnPropNameInRow="PrimerNombre" msprop:Generator_ColumnPropNameInTable="PrimerNombreColumn" msprop:Generator_ColumnVarNameInTable="columnPrimerNombre" msprop:Generator_UserColumnName="PrimerNombre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrimerApellido" msprop:Generator_ColumnPropNameInRow="PrimerApellido" msprop:Generator_ColumnPropNameInTable="PrimerApellidoColumn" msprop:Generator_ColumnVarNameInTable="columnPrimerApellido" msprop:Generator_UserColumnName="PrimerApellido">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Codigo_Estudiante" msprop:Generator_ColumnPropNameInRow="Codigo_Estudiante" msprop:Generator_ColumnPropNameInTable="Codigo_EstudianteColumn" msprop:Generator_ColumnVarNameInTable="columnCodigo_Estudiante" msprop:Generator_UserColumnName="Codigo_Estudiante" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:VISTA_ESTUDIANTES_FALTAN_DEFENSA_INTERNA" />
+      <xs:field xpath="mstns:Id_Proyecto" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

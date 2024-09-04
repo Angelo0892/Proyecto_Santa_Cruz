@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DEMOPROYDataSet7" targetNamespace="http://tempuri.org/DEMOPROYDataSet7.xsd" xmlns:mstns="http://tempuri.org/DEMOPROYDataSet7.xsd" xmlns="http://tempuri.org/DEMOPROYDataSet7.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="DEMOPROYConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="DEMOPROYConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DEMOPROY1.Properties.Settings.GlobalReference.Default.DEMOPROYConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VISTA_TUTORES_Y_POSTULANTESTableAdapter" GeneratorDataComponentClassName="VISTA_TUTORES_Y_POSTULANTESTableAdapter" Name="VISTA_TUTORES_Y_POSTULANTES" UserDataComponentName="VISTA_TUTORES_Y_POSTULANTESTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="DEMOPROYConnectionString (Settings)" DbObjectName="DEMOPROY.dbo.VISTA_TUTORES_Y_POSTULANTES" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Nombre_Tutor, Apellido_Tutor, Nombre_Postulante, Apellido_Postulante, Titulo_Proyecto, Gestion, Semestre FROM dbo.VISTA_TUTORES_Y_POSTULANTES</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Nombre_Tutor" DataSetColumn="Nombre_Tutor" />
+              <Mapping SourceColumn="Apellido_Tutor" DataSetColumn="Apellido_Tutor" />
+              <Mapping SourceColumn="Nombre_Postulante" DataSetColumn="Nombre_Postulante" />
+              <Mapping SourceColumn="Apellido_Postulante" DataSetColumn="Apellido_Postulante" />
+              <Mapping SourceColumn="Titulo_Proyecto" DataSetColumn="Titulo_Proyecto" />
+              <Mapping SourceColumn="Gestion" DataSetColumn="Gestion" />
+              <Mapping SourceColumn="Semestre" DataSetColumn="Semestre" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DEMOPROYDataSet7" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="DEMOPROYDataSet7" msprop:Generator_DataSetName="DEMOPROYDataSet7">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="VISTA_TUTORES_Y_POSTULANTES" msprop:Generator_RowEvHandlerName="VISTA_TUTORES_Y_POSTULANTESRowChangeEventHandler" msprop:Generator_RowDeletedName="VISTA_TUTORES_Y_POSTULANTESRowDeleted" msprop:Generator_RowDeletingName="VISTA_TUTORES_Y_POSTULANTESRowDeleting" msprop:Generator_RowEvArgName="VISTA_TUTORES_Y_POSTULANTESRowChangeEvent" msprop:Generator_TablePropName="VISTA_TUTORES_Y_POSTULANTES" msprop:Generator_RowChangedName="VISTA_TUTORES_Y_POSTULANTESRowChanged" msprop:Generator_RowChangingName="VISTA_TUTORES_Y_POSTULANTESRowChanging" msprop:Generator_TableClassName="VISTA_TUTORES_Y_POSTULANTESDataTable" msprop:Generator_RowClassName="VISTA_TUTORES_Y_POSTULANTESRow" msprop:Generator_TableVarName="tableVISTA_TUTORES_Y_POSTULANTES" msprop:Generator_UserTableName="VISTA_TUTORES_Y_POSTULANTES">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Nombre_Tutor" msprop:Generator_ColumnPropNameInRow="Nombre_Tutor" msprop:Generator_ColumnPropNameInTable="Nombre_TutorColumn" msprop:Generator_ColumnVarNameInTable="columnNombre_Tutor" msprop:Generator_UserColumnName="Nombre_Tutor">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Apellido_Tutor" msprop:Generator_ColumnPropNameInRow="Apellido_Tutor" msprop:Generator_ColumnPropNameInTable="Apellido_TutorColumn" msprop:Generator_ColumnVarNameInTable="columnApellido_Tutor" msprop:Generator_UserColumnName="Apellido_Tutor">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Nombre_Postulante" msprop:Generator_ColumnPropNameInRow="Nombre_Postulante" msprop:Generator_ColumnPropNameInTable="Nombre_PostulanteColumn" msprop:Generator_ColumnVarNameInTable="columnNombre_Postulante" msprop:Generator_UserColumnName="Nombre_Postulante">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Apellido_Postulante" msprop:Generator_ColumnPropNameInRow="Apellido_Postulante" msprop:Generator_ColumnPropNameInTable="Apellido_PostulanteColumn" msprop:Generator_ColumnVarNameInTable="columnApellido_Postulante" msprop:Generator_UserColumnName="Apellido_Postulante">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Titulo_Proyecto" msprop:Generator_ColumnPropNameInRow="Titulo_Proyecto" msprop:Generator_ColumnPropNameInTable="Titulo_ProyectoColumn" msprop:Generator_ColumnVarNameInTable="columnTitulo_Proyecto" msprop:Generator_UserColumnName="Titulo_Proyecto">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Gestion" msprop:Generator_ColumnPropNameInRow="Gestion" msprop:Generator_ColumnPropNameInTable="GestionColumn" msprop:Generator_ColumnVarNameInTable="columnGestion" msprop:Generator_UserColumnName="Gestion">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Semestre" msprop:Generator_ColumnPropNameInRow="Semestre" msprop:Generator_ColumnPropNameInTable="SemestreColumn" msprop:Generator_ColumnVarNameInTable="columnSemestre" msprop:Generator_UserColumnName="Semestre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

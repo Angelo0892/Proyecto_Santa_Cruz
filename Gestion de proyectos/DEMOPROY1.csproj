@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F28C15B5-79CD-4CED-B72F-11EA2A589846}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DEMOPROY1</RootNamespace>
+    <AssemblyName>DEMOPROY1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CABALLOSDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CABALLOSDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\ControladorUsuario.cs" />
+    <Compile Include="Controllers\DefensaInternaController.cs" />
+    <Compile Include="Controllers\DefensaExternaController.cs" />
+    <Compile Include="Controllers\DefensaPerfilController.cs" />
+    <Compile Include="Controllers\DocenteController.cs" />
+    <Compile Include="Controllers\ProyectoController.cs" />
+    <Compile Include="Controllers\PerfilController.cs" />
+    <Compile Include="Controllers\PostulanteController.cs" />
+    <Compile Include="Controllers\TribunalController.cs" />
+    <Compile Include="DEMOPROYDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DEMOPROYDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DEMOPROYDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DEMOPROYDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DEMOPROYDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DEMOPROYDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DEMOPROYDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DEMOPROYDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DEMOPROYDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DEMOPROYDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DEMOPROYDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DEMOPROYDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DEMOPROYDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DEMOPROYDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DEMOPROYDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DEMOPROYDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DEMOPROYDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DEMOPROYDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DEMOPROYDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DEMOPROYDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DEMOPROYDataSet18.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DEMOPROYDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DEMOPROYDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DEMOPROYDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DEMOPROYDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DEMOPROYDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DEMOPROYDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DEMOPROYDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DEMOPROYDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DEMOPROYDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DEMOPROYDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DEMOPROYDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DEMOPROYDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DEMOPROYDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DEMOPROYDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DEMOPROYDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DEMOPROYDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DEMOPROYDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Carrera.cs" />
+    <Compile Include="Models\DbConexion.cs" />
+    <Compile Include="Models\DefensaExterna.cs" />
+    <Compile Include="Models\DefensaInterna.cs" />
+    <Compile Include="Models\DefensaPerfil.cs" />
+    <Compile Include="Models\Docente.cs" />
+    <Compile Include="Models\Global.cs" />
+    <Compile Include="Models\Perfil.cs" />
+    <Compile Include="Models\Postulante.cs" />
+    <Compile Include="Models\Proyecto.cs" />
+    <Compile Include="Models\TituloProfesional.cs" />
+    <Compile Include="Models\Tribunal.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VIews\DEFENSAEXTERNA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIews\DEFENSAEXTERNA.Designer.cs">
+      <DependentUpon>DEFENSAEXTERNA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIews\DEFENSAINTERNA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIews\DEFENSAINTERNA.Designer.cs">
+      <DependentUpon>DEFENSAINTERNA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIews\DefensaPerfilForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIews\DefensaPerfilForm.designer.cs">
+      <DependentUpon>DefensaPerfilForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIews\DocenteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIews\DocenteForm.designer.cs">
+      <DependentUpon>DocenteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIews\ESTUDIANTESPENDIENTES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIews\ESTUDIANTESPENDIENTES.Designer.cs">
+      <DependentUpon>ESTUDIANTESPENDIENTES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIews\GestionDeUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIews\GestionDeUsuario.Designer.cs">
+      <DependentUpon>GestionDeUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIews\INDEX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIews\INDEX.Designer.cs">
+      <DependentUpon>INDEX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIews\login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIews\login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIews\PerfilForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIews\PerfilForm.Designer.cs">
+      <DependentUpon>PerfilForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIews\PostulanteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIews\PostulanteForm.Designer.cs">
+      <DependentUpon>PostulanteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIews\ProyectoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIews\ProyectoForm.Designer.cs">
+      <DependentUpon>ProyectoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIews\REPORTEPROYECTOS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIews\REPORTEPROYECTOS.Designer.cs">
+      <DependentUpon>REPORTEPROYECTOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIews\TribunalForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIews\TribunalForm.designer.cs">
+      <DependentUpon>TribunalForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIews\TUTORESYTUTORADOS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIews\TUTORESYTUTORADOS.Designer.cs">
+      <DependentUpon>TUTORESYTUTORADOS.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="VIews\DEFENSAEXTERNA.resx">
+      <DependentUpon>DEFENSAEXTERNA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIews\DEFENSAINTERNA.resx">
+      <DependentUpon>DEFENSAINTERNA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIews\DefensaPerfilForm.resx">
+      <DependentUpon>DefensaPerfilForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIews\DocenteForm.resx">
+      <DependentUpon>DocenteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIews\ESTUDIANTESPENDIENTES.resx">
+      <DependentUpon>ESTUDIANTESPENDIENTES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIews\INDEX.resx">
+      <DependentUpon>INDEX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIews\login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIews\PerfilForm.resx">
+      <DependentUpon>PerfilForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIews\PostulanteForm.resx">
+      <DependentUpon>PostulanteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIews\ProyectoForm.resx">
+      <DependentUpon>ProyectoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIews\REPORTEPROYECTOS.resx">
+      <DependentUpon>REPORTEPROYECTOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIews\TribunalForm.resx">
+      <DependentUpon>TribunalForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIews\TUTORESYTUTORADOS.resx">
+      <DependentUpon>TUTORESYTUTORADOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="CABALLOSDataSet.xsc">
+      <DependentUpon>CABALLOSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CABALLOSDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CABALLOSDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CABALLOSDataSet.xss">
+      <DependentUpon>CABALLOSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet.xsc">
+      <DependentUpon>DEMOPROYDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DEMOPROYDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DEMOPROYDataSet.xss">
+      <DependentUpon>DEMOPROYDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet1.xsc">
+      <DependentUpon>DEMOPROYDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DEMOPROYDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DEMOPROYDataSet1.xss">
+      <DependentUpon>DEMOPROYDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet10.xsc">
+      <DependentUpon>DEMOPROYDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DEMOPROYDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DEMOPROYDataSet10.xss">
+      <DependentUpon>DEMOPROYDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet11.xsc">
+      <DependentUpon>DEMOPROYDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DEMOPROYDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DEMOPROYDataSet11.xss">
+      <DependentUpon>DEMOPROYDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet12.xsc">
+      <DependentUpon>DEMOPROYDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DEMOPROYDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DEMOPROYDataSet12.xss">
+      <DependentUpon>DEMOPROYDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet13.xsc">
+      <DependentUpon>DEMOPROYDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DEMOPROYDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DEMOPROYDataSet13.xss">
+      <DependentUpon>DEMOPROYDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet14.xsc">
+      <DependentUpon>DEMOPROYDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DEMOPROYDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DEMOPROYDataSet14.xss">
+      <DependentUpon>DEMOPROYDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet15.xsc">
+      <DependentUpon>DEMOPROYDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DEMOPROYDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DEMOPROYDataSet15.xss">
+      <DependentUpon>DEMOPROYDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet16.xsc">
+      <DependentUpon>DEMOPROYDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DEMOPROYDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DEMOPROYDataSet16.xss">
+      <DependentUpon>DEMOPROYDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet17.xsc">
+      <DependentUpon>DEMOPROYDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DEMOPROYDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DEMOPROYDataSet17.xss">
+      <DependentUpon>DEMOPROYDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet18.xsc">
+      <DependentUpon>DEMOPROYDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DEMOPROYDataSet18.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DEMOPROYDataSet18.xss">
+      <DependentUpon>DEMOPROYDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet2.xsc">
+      <DependentUpon>DEMOPROYDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DEMOPROYDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DEMOPROYDataSet2.xss">
+      <DependentUpon>DEMOPROYDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet3.xsc">
+      <DependentUpon>DEMOPROYDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DEMOPROYDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DEMOPROYDataSet3.xss">
+      <DependentUpon>DEMOPROYDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet4.xsc">
+      <DependentUpon>DEMOPROYDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DEMOPROYDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DEMOPROYDataSet4.xss">
+      <DependentUpon>DEMOPROYDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet5.xsc">
+      <DependentUpon>DEMOPROYDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DEMOPROYDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DEMOPROYDataSet5.xss">
+      <DependentUpon>DEMOPROYDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet6.xsc">
+      <DependentUpon>DEMOPROYDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DEMOPROYDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DEMOPROYDataSet6.xss">
+      <DependentUpon>DEMOPROYDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet7.xsc">
+      <DependentUpon>DEMOPROYDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DEMOPROYDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DEMOPROYDataSet7.xss">
+      <DependentUpon>DEMOPROYDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet8.xsc">
+      <DependentUpon>DEMOPROYDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DEMOPROYDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DEMOPROYDataSet8.xss">
+      <DependentUpon>DEMOPROYDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet9.xsc">
+      <DependentUpon>DEMOPROYDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="DEMOPROYDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DEMOPROYDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DEMOPROYDataSet9.xss">
+      <DependentUpon>DEMOPROYDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UPDS.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upsc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo de login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WELCOME.jpeg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

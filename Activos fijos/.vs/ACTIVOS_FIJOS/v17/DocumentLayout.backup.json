@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ramos\\source\\repos\\ACTIVOS_FIJOS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|c:\\users\\ramos\\source\\repos\\activos_fijos\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|c:\\users\\ramos\\source\\repos\\activos_fijos\\models\\dbconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|solutionrelative:models\\dbconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|c:\\users\\ramos\\source\\repos\\activos_fijos\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|c:\\users\\ramos\\source\\repos\\activos_fijos\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C3CA38B-A993-4789-BC33-E5B2E49589A3}|ACTIVOS_FIJOS.csproj|solutionrelative:login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "login.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Ramos\\source\\repos\\ACTIVOS_FIJOS\\login.Designer.cs",
+              "RelativeDocumentMoniker": "login.Designer.cs",
+              "ToolTip": "C:\\Users\\Ramos\\source\\repos\\ACTIVOS_FIJOS\\login.Designer.cs",
+              "RelativeToolTip": "login.Designer.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAswBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T00:41:10.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "login.cs",
+              "DocumentMoniker": "C:\\Users\\Ramos\\source\\repos\\ACTIVOS_FIJOS\\login.cs",
+              "RelativeDocumentMoniker": "login.cs",
+              "ToolTip": "C:\\Users\\Ramos\\source\\repos\\ACTIVOS_FIJOS\\login.cs",
+              "RelativeToolTip": "login.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T00:40:24.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Ramos\\source\\repos\\ACTIVOS_FIJOS\\login.cs",
+              "RelativeDocumentMoniker": "login.cs",
+              "ToolTip": "C:\\Users\\Ramos\\source\\repos\\ACTIVOS_FIJOS\\login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "login.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T00:40:17.583Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DbConexion.cs",
+              "DocumentMoniker": "C:\\Users\\Ramos\\source\\repos\\ACTIVOS_FIJOS\\Models\\DbConexion.cs",
+              "RelativeDocumentMoniker": "Models\\DbConexion.cs",
+              "ToolTip": "C:\\Users\\Ramos\\source\\repos\\ACTIVOS_FIJOS\\Models\\DbConexion.cs",
+              "RelativeToolTip": "Models\\DbConexion.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAAAswCIBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T00:36:57.876Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

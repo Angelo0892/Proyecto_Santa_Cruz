@@ -1,0 +1,94 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Isra Iss\\Desktop\\Ingenieria de Software I\\Proyecto\\SistemaPatologiaIA\\SistemaPatologiaIA\\SistemaPatologiaIA.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Isra Iss\\Desktop\\Ingenieria de Software I\\Proyecto\\SistemaPatologiaIA\\SistemaPatologiaIA\\SistemaPatologiaIA.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Isra Iss\\Desktop\\Ingenieria de Software I\\Proyecto\\SistemaPatologiaIA\\SistemaPatologiaIA\\SistemaPatologiaIA.csproj",
+        "projectName": "SistemaPatologiaIA",
+        "projectPath": "C:\\Users\\Isra Iss\\Desktop\\Ingenieria de Software I\\Proyecto\\SistemaPatologiaIA\\SistemaPatologiaIA\\SistemaPatologiaIA.csproj",
+        "packagesPath": "C:\\Users\\Isra Iss\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Isra Iss\\Desktop\\Ingenieria de Software I\\Proyecto\\SistemaPatologiaIA\\SistemaPatologiaIA\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Isra Iss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            },
+            "iTextSharp.LGPLv2.Core": {
+              "target": "Package",
+              "version": "[3.4.21, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,148 @@
+﻿namespace Proyecto_almacen
+{
+    partial class login
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.txtusuario = new System.Windows.Forms.TextBox();
+            this.txtcontra = new System.Windows.Forms.TextBox();
+            this.btncerrar = new System.Windows.Forms.Button();
+            this.btningresar = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // txtusuario
+            // 
+            this.txtusuario.Location = new System.Drawing.Point(137, 133);
+            this.txtusuario.Name = "txtusuario";
+            this.txtusuario.Size = new System.Drawing.Size(238, 20);
+            this.txtusuario.TabIndex = 0;
+            this.txtusuario.TextChanged += new System.EventHandler(this.txtusuario_TextChanged);
+            // 
+            // txtcontra
+            // 
+            this.txtcontra.Location = new System.Drawing.Point(137, 179);
+            this.txtcontra.Name = "txtcontra";
+            this.txtcontra.PasswordChar = '*';
+            this.txtcontra.Size = new System.Drawing.Size(238, 20);
+            this.txtcontra.TabIndex = 1;
+            this.txtcontra.TextChanged += new System.EventHandler(this.txtcontra_TextChanged);
+            // 
+            // btncerrar
+            // 
+            this.btncerrar.BackColor = System.Drawing.Color.Salmon;
+            this.btncerrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btncerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncerrar.Location = new System.Drawing.Point(90, 230);
+            this.btncerrar.Name = "btncerrar";
+            this.btncerrar.Size = new System.Drawing.Size(94, 41);
+            this.btncerrar.TabIndex = 2;
+            this.btncerrar.Text = "Salir";
+            this.btncerrar.UseVisualStyleBackColor = false;
+            this.btncerrar.Click += new System.EventHandler(this.btncerrar_Click);
+            // 
+            // btningresar
+            // 
+            this.btningresar.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btningresar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btningresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btningresar.Location = new System.Drawing.Point(309, 230);
+            this.btningresar.Name = "btningresar";
+            this.btningresar.Size = new System.Drawing.Size(111, 41);
+            this.btningresar.TabIndex = 3;
+            this.btningresar.Text = "Ingresar";
+            this.btningresar.UseVisualStyleBackColor = false;
+            this.btningresar.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(130, 107);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(76, 20);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Usuario:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(133, 156);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(107, 20);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Contraseña:";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Showcard Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(83, 34);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(361, 40);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Bienvenido a la UPS";
+            // 
+            // login
+            // 
+            this.AcceptButton = this.btningresar;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightCyan;
+            this.ClientSize = new System.Drawing.Size(508, 283);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btningresar);
+            this.Controls.Add(this.btncerrar);
+            this.Controls.Add(this.txtcontra);
+            this.Controls.Add(this.txtusuario);
+            this.Name = "login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "login";
+            this.Load += new System.EventHandler(this.login_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.TextBox txtusuario;
+        private System.Windows.Forms.TextBox txtcontra;
+        private System.Windows.Forms.Button btncerrar;
+        private System.Windows.Forms.Button btningresar;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+    }
+}
